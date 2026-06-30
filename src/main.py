@@ -6,12 +6,13 @@ import json
 from dotenv import load_dotenv
 
 PATH= os.environ.get("INCOMING_PATH", f"{os.path.dirname(os.path.abspath(__file__))}/incoming")
+global supervisor_agent
 
 def main():
     load_dotenv()  # Carica le variabili d'ambiente dal file .env
     print(f"Creo Agenti Azure AI Foundry con modello: {os.environ.get('AZ_MODEL_NAME', 'gpt-4.1-mini')}")
     agent_maker = AgentsMaker()
-    # agent_maker.make_agents()
+    supervisor_agent =agent_maker.make_agents()
     print(f"Starting poller on {PATH}")
     lc_poller = LocalPoller(process=process_file, path=PATH, interval_seconds=5)
     lc_poller.start()
@@ -31,6 +32,7 @@ def main():
 def process_file(file_path):
     print(f"Process_file: {file_path}")
     #Call Agent 
+    supervisor_agent.run(file_path)
 
 
 

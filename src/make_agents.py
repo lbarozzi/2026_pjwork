@@ -168,7 +168,7 @@ class AgentsMaker:
 
         self._save_state(created)
         print(f"Creati agent e file. Stato salvato in: {self._state_path()}")
-        return created
+        return supervisor_agent
 
     def delete_agents(self):
         agents_client = self._build_clients()
