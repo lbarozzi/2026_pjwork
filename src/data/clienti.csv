@@ -1,0 +1,21 @@
+id,ragione_sociale,partita_iva,indirizzo,cap,citta,provincia,email,telefono
+CLI-001,Meccanica Precisione S.r.l.,IT01234567890,Via dell'Industria 12,40033,Casalecchio di Reno,BO,ordini@meccanicaprecisione.it,051 1234567
+CLI-002,Elettronica Adriatica S.p.A.,IT02345678901,Viale Europa 45,47521,Cesena,FC,acquisti@elettronicaadriatica.it,0547 234567
+CLI-003,Idraulica Veneta S.n.c.,IT03456789012,Via Padova 78,35131,Padova,PD,info@idraulicaveneta.it,049 3456789
+CLI-004,Ferramenta Emiliana S.r.l.,IT04567890123,Via Emilia Ovest 156,41124,Modena,MO,ordini@ferramentaemiliana.it,059 4567890
+CLI-005,Tecnomeccanica Lombarda S.p.A.,IT05678901234,Via Bergamo 23,20135,Milano,MI,ufficio.acquisti@tecnomeccanica.it,02 5678901
+CLI-006,Automazione Industriale Piemonte S.r.l.,IT06789012345,Corso Francia 189,10138,Torino,TO,acquisti@aipautomazione.it,011 6789012
+CLI-007,Carpenteria Metallica Toscana S.r.l.,IT07890123456,Via Pisana 34,50142,Firenze,FI,ordini@cmt-firenze.it,055 7890123
+CLI-008,Componenti Industriali Veneto S.p.A.,IT08901234567,Via Trieste 67,37122,Verona,VR,procurement@civs.it,045 8901234
+CLI-009,Officina Meccanica Romagnola S.r.l.,IT09012345678,Via Ravegnana 112,47122,Forlì,FC,info@omromagnola.it,0543 9012345
+CLI-010,Impianti Elettrici del Nord S.r.l.,IT10123456789,Via Marconi 56,38122,Trento,TN,ordini@iednord.it,0461 0123456
+CLI-011,Saldature & Montaggi S.n.c.,IT11234567890,Via Artigianato 8,36100,Vicenza,VI,info@saldaturemontaggi.it,0444 1234567
+CLI-012,Termoidraulica Centro Italia S.r.l.,IT12345678901,Via Flaminia 234,06049,Spoleto,PG,acquisti@termoidraulicaci.it,0743 2345678
+CLI-013,Utensileria Bergamasca S.r.l.,IT13456789012,Via Seriate 45,24121,Bergamo,BG,ordini@utensileriabg.it,035 3456789
+CLI-014,Sistemi Pneumatici Liguria S.p.A.,IT14567890123,Via Lungomare 78,16126,Genova,GE,purchasing@spliguria.it,010 4567890
+CLI-015,Fonderia Marchigiana S.r.l.,IT15678901234,Via Industriale 22,60131,Ancona,AN,ordini@fonderiamarchigiana.it,071 5678901
+CLI-016,Materiali Edili Friuli S.r.l.,IT16789012345,Viale Palmanova 90,33100,Udine,UD,info@materialiedili-fvg.it,0432 6789012
+CLI-017,Oleodinamica Parmense S.r.l.,IT17890123456,Via Emilia Est 67,43121,Parma,PR,acquisti@oleodinamicapr.it,0521 7890123
+CLI-018,Tecnologie Laser Alto Adige S.r.l.,IT18901234567,Via Galvani 15,39100,Bolzano,BZ,order@techlaser-bz.it,0471 8901234
+CLI-019,Minuterie Metalliche Bresciane S.p.A.,IT19012345678,Via Triumplina 123,25123,Brescia,BS,ordini@minuteriebrescia.it,030 9012345
+CLI-020,Isolamenti Termici Calabria S.r.l.,IT20123456789,Via Nazionale 56,87100,Cosenza,CS,info@isolamentitermici.it,0984 0123456

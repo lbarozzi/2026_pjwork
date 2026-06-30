@@ -1,0 +1,41 @@
+codice,descrizione,categoria,unita_misura,prezzo_listino
+ART-001,Bullone esagonale M8x40 zincato,Ferramenta,pz,0.45
+ART-002,Dado autobloccante M8 inox,Ferramenta,pz,0.32
+ART-003,Vite a brugola M6x30,Ferramenta,pz,0.28
+ART-004,Rondella piana M10 zincata,Ferramenta,pz,0.12
+ART-005,Tassello Fischer SX10,Ferramenta,conf,8.5
+ART-006,Rivetto a strappo 4.8x12 alluminio,Ferramenta,conf,12.9
+ART-007,Barra filettata M12 L=1m zincata,Ferramenta,pz,4.8
+ART-008,Graffetta per tubi D=25mm,Ferramenta,pz,1.65
+ART-010,Cavo elettrico H07V-K 2.5mm² blu (100m),Componenti Elettrici,m,0.85
+ART-011,Interruttore magnetotermico 16A 1P,Componenti Elettrici,pz,18.5
+ART-012,Presa industriale CEE 32A 3P+T,Componenti Elettrici,pz,24.9
+ART-013,Morsettiera 12 poli 16mm²,Componenti Elettrici,pz,3.2
+ART-014,Guaina spiralata D=16mm nera (25m),Componenti Elettrici,pz,15.4
+ART-015,Sensore di prossimità induttivo M18 PNP,Componenti Elettrici,pz,42.0
+ART-016,Relè industriale 24VDC 4 contatti,Componenti Elettrici,pz,28.5
+ART-017,Connettore circolare M12 4 pin,Componenti Elettrici,pz,9.8
+ART-020,Tubo multistrato 20x2 (barra 5m),Materiale Idraulico,pz,18.9
+ART-021,"Raccordo a pressare 20x1/2"" maschio",Materiale Idraulico,pz,5.4
+ART-022,"Valvola a sfera 1"" ottone",Materiale Idraulico,pz,14.8
+ART-023,Pompa di circolazione 25-60,Materiale Idraulico,pz,245.0
+ART-024,Manometro radiale 0-10 bar D=63mm,Materiale Idraulico,pz,12.5
+ART-025,"Guarnizione piatta 1"" in fibra",Materiale Idraulico,conf,3.8
+ART-026,"Collettore distribuzione 1"" 4 uscite",Materiale Idraulico,pz,68.0
+ART-027,"Filtro a Y 3/4"" ottone",Materiale Idraulico,pz,22.5
+ART-030,"Set chiavi a bussola 1/2"" 10-32mm (21pz)",Utensili,pz,89.0
+ART-031,Trapano a colonna da banco 500W,Utensili,pz,385.0
+ART-032,Disco da taglio inox 125x1.0mm,Utensili,pz,2.1
+ART-033,Pinza amperometrica digitale 600A,Utensili,pz,125.0
+ART-034,"Chiave dinamometrica 1/2"" 20-200Nm",Utensili,pz,156.0
+ART-035,Saldatrice inverter MMA 200A,Utensili,pz,420.0
+ART-036,Set punte HSS rettificate 1-13mm (25pz),Utensili,pz,34.5
+ART-037,Morsa da banco parallela 150mm,Utensili,pz,98.0
+ART-040,Olio lubrificante universale 5L,Materiale di Consumo,lt,28.5
+ART-041,Grasso al litio multiuso 400g,Materiale di Consumo,pz,6.8
+ART-042,Spray sgrassante industriale 500ml,Materiale di Consumo,pz,7.9
+ART-043,Nastro isolante PVC 19mm nero (25m),Materiale di Consumo,pz,2.4
+ART-044,Guanti da lavoro nitrile tg. L (100pz),Materiale di Consumo,conf,14.5
+ART-045,Panno pulizia industriale rotolo (500 strappi),Materiale di Consumo,pz,22.0
+ART-046,Silicone sigillante trasparente 310ml,Materiale di Consumo,pz,5.6
+ART-047,Fascette cablaggio 200x4.8mm bianche (100pz),Materiale di Consumo,conf,4.2

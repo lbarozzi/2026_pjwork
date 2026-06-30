@@ -1,0 +1,401 @@
+id_riga,id_ordine,codice_articolo,descrizione_articolo,quantita,prezzo_unitario,importo_riga
+1,ORD-0001,ART-016,Relè industriale 24VDC 4 contatti,10,28.76,287.6
+2,ORD-0001,ART-010,Cavo elettrico H07V-K 2.5mm² blu (100m),50,0.81,40.5
+3,ORD-0001,ART-007,Barra filettata M12 L=1m zincata,161,4.67,751.87
+4,ORD-0001,ART-042,Spray sgrassante industriale 500ml,358,7.53,2695.74
+5,ORD-0002,ART-032,Disco da taglio inox 125x1.0mm,224,2.05,459.2
+6,ORD-0002,ART-016,Relè industriale 24VDC 4 contatti,18,29.8,536.4
+7,ORD-0002,ART-034,"Chiave dinamometrica 1/2"" 20-200Nm",3,149.79,449.37
+8,ORD-0002,ART-021,"Raccordo a pressare 20x1/2"" maschio",244,5.18,1263.92
+9,ORD-0002,ART-001,Bullone esagonale M8x40 zincato,483,0.44,212.52
+10,ORD-0002,ART-012,Presa industriale CEE 32A 3P+T,21,25.66,538.86
+11,ORD-0002,ART-033,Pinza amperometrica digitale 600A,4,125.45,501.8
+12,ORD-0003,ART-047,Fascette cablaggio 200x4.8mm bianche (100pz),73,4.27,311.71
+13,ORD-0003,ART-027,"Filtro a Y 3/4"" ottone",23,23.59,542.57
+14,ORD-0003,ART-044,Guanti da lavoro nitrile tg. L (100pz),19,15.03,285.57
+15,ORD-0003,ART-014,Guaina spiralata D=16mm nera (25m),29,15.06,436.74
+16,ORD-0003,ART-005,Tassello Fischer SX10,375,8.78,3292.5
+17,ORD-0004,ART-021,"Raccordo a pressare 20x1/2"" maschio",323,5.52,1782.96
+18,ORD-0004,ART-005,Tassello Fischer SX10,133,8.47,1126.51
+19,ORD-0004,ART-046,Silicone sigillante trasparente 310ml,188,5.87,1103.56
+20,ORD-0004,ART-012,Presa industriale CEE 32A 3P+T,45,25.37,1141.65
+21,ORD-0005,ART-016,Relè industriale 24VDC 4 contatti,30,27.84,835.2
+22,ORD-0005,ART-003,Vite a brugola M6x30,158,0.29,45.82
+23,ORD-0005,ART-024,Manometro radiale 0-10 bar D=63mm,41,12.97,531.77
+24,ORD-0006,ART-031,Trapano a colonna da banco 500W,5,386.5,1932.5
+25,ORD-0006,ART-035,Saldatrice inverter MMA 200A,5,416.99,2084.95
+26,ORD-0006,ART-011,Interruttore magnetotermico 16A 1P,42,18.31,769.02
+27,ORD-0006,ART-020,Tubo multistrato 20x2 (barra 5m),19,19.84,376.96
+28,ORD-0006,ART-010,Cavo elettrico H07V-K 2.5mm² blu (100m),100,0.85,85.0
+29,ORD-0006,ART-017,Connettore circolare M12 4 pin,96,10.05,964.8
+30,ORD-0007,ART-033,Pinza amperometrica digitale 600A,4,126.2,504.8
+31,ORD-0007,ART-046,Silicone sigillante trasparente 310ml,289,5.62,1624.18
+32,ORD-0007,ART-005,Tassello Fischer SX10,333,8.81,2933.73
+33,ORD-0007,ART-030,"Set chiavi a bussola 1/2"" 10-32mm (21pz)",5,90.6,453.0
+34,ORD-0008,ART-025,"Guarnizione piatta 1"" in fibra",282,3.61,1018.02
+35,ORD-0008,ART-008,Graffetta per tubi D=25mm,419,1.71,716.49
+36,ORD-0008,ART-022,"Valvola a sfera 1"" ottone",21,15.5,325.5
+37,ORD-0008,ART-033,Pinza amperometrica digitale 600A,2,125.1,250.2
+38,ORD-0008,ART-012,Presa industriale CEE 32A 3P+T,11,25.82,284.02
+39,ORD-0009,ART-046,Silicone sigillante trasparente 310ml,50,5.66,283.0
+40,ORD-0009,ART-014,Guaina spiralata D=16mm nera (25m),36,14.66,527.76
+41,ORD-0009,ART-011,Interruttore magnetotermico 16A 1P,28,19.2,537.6
+42,ORD-0009,ART-027,"Filtro a Y 3/4"" ottone",24,21.91,525.84
+43,ORD-0009,ART-012,Presa industriale CEE 32A 3P+T,20,25.84,516.8
+44,ORD-0009,ART-042,Spray sgrassante industriale 500ml,90,7.57,681.3
+45,ORD-0009,ART-041,Grasso al litio multiuso 400g,298,7.01,2088.98
+46,ORD-0010,ART-036,Set punte HSS rettificate 1-13mm (25pz),38,35.78,1359.64
+47,ORD-0010,ART-043,Nastro isolante PVC 19mm nero (25m),266,2.51,667.66
+48,ORD-0010,ART-012,Presa industriale CEE 32A 3P+T,39,25.54,996.06
+49,ORD-0010,ART-020,Tubo multistrato 20x2 (barra 5m),49,18.34,898.66
+50,ORD-0011,ART-034,"Chiave dinamometrica 1/2"" 20-200Nm",1,153.47,153.47
+51,ORD-0011,ART-041,Grasso al litio multiuso 400g,351,6.84,2400.84
+52,ORD-0011,ART-008,Graffetta per tubi D=25mm,351,1.6,561.6
+53,ORD-0011,ART-017,Connettore circolare M12 4 pin,86,10.0,860.0
+54,ORD-0011,ART-016,Relè industriale 24VDC 4 contatti,8,27.73,221.84
+55,ORD-0012,ART-040,Olio lubrificante universale 5L,50,27.69,1384.5
+56,ORD-0012,ART-017,Connettore circolare M12 4 pin,117,10.02,1172.34
+57,ORD-0012,ART-021,"Raccordo a pressare 20x1/2"" maschio",342,5.44,1860.48
+58,ORD-0013,ART-014,Guaina spiralata D=16mm nera (25m),31,15.35,475.85
+59,ORD-0013,ART-007,Barra filettata M12 L=1m zincata,423,4.59,1941.57
+60,ORD-0013,ART-046,Silicone sigillante trasparente 310ml,384,5.87,2254.08
+61,ORD-0013,ART-033,Pinza amperometrica digitale 600A,1,119.51,119.51
+62,ORD-0013,ART-026,"Collettore distribuzione 1"" 4 uscite",26,70.04,1821.04
+63,ORD-0013,ART-044,Guanti da lavoro nitrile tg. L (100pz),11,14.14,155.54
+64,ORD-0014,ART-033,Pinza amperometrica digitale 600A,2,129.68,259.36
+65,ORD-0014,ART-013,Morsettiera 12 poli 16mm²,88,3.18,279.84
+66,ORD-0014,ART-021,"Raccordo a pressare 20x1/2"" maschio",491,5.59,2744.69
+67,ORD-0014,ART-035,Saldatrice inverter MMA 200A,1,401.12,401.12
+68,ORD-0015,ART-017,Connettore circolare M12 4 pin,298,9.78,2914.44
+69,ORD-0015,ART-012,Presa industriale CEE 32A 3P+T,30,25.9,777.0
+70,ORD-0015,ART-032,Disco da taglio inox 125x1.0mm,134,2.07,277.38
+71,ORD-0016,ART-033,Pinza amperometrica digitale 600A,3,121.47,364.41
+72,ORD-0016,ART-043,Nastro isolante PVC 19mm nero (25m),79,2.42,191.18
+73,ORD-0016,ART-037,Morsa da banco parallela 150mm,39,93.7,3654.3
+74,ORD-0016,ART-011,Interruttore magnetotermico 16A 1P,25,17.68,442.0
+75,ORD-0016,ART-014,Guaina spiralata D=16mm nera (25m),42,15.36,645.12
+76,ORD-0017,ART-006,Rivetto a strappo 4.8x12 alluminio,41,12.57,515.37
+77,ORD-0017,ART-013,Morsettiera 12 poli 16mm²,354,3.05,1079.7
+78,ORD-0017,ART-005,Tassello Fischer SX10,91,8.43,767.13
+79,ORD-0017,ART-045,Panno pulizia industriale rotolo (500 strappi),42,22.14,929.88
+80,ORD-0017,ART-017,Connettore circolare M12 4 pin,211,10.23,2158.53
+81,ORD-0017,ART-031,Trapano a colonna da banco 500W,2,391.53,783.06
+82,ORD-0017,ART-008,Graffetta per tubi D=25mm,210,1.61,338.1
+83,ORD-0018,ART-035,Saldatrice inverter MMA 200A,5,440.84,2204.2
+84,ORD-0018,ART-024,Manometro radiale 0-10 bar D=63mm,9,12.55,112.95
+85,ORD-0018,ART-005,Tassello Fischer SX10,309,8.3,2564.7
+86,ORD-0018,ART-001,Bullone esagonale M8x40 zincato,228,0.47,107.16
+87,ORD-0018,ART-047,Fascette cablaggio 200x4.8mm bianche (100pz),500,4.09,2045.0
+88,ORD-0019,ART-023,Pompa di circolazione 25-60,3,235.58,706.74
+89,ORD-0019,ART-041,Grasso al litio multiuso 400g,104,6.96,723.84
+90,ORD-0019,ART-001,Bullone esagonale M8x40 zincato,129,0.44,56.76
+91,ORD-0019,ART-043,Nastro isolante PVC 19mm nero (25m),359,2.33,836.47
+92,ORD-0019,ART-047,Fascette cablaggio 200x4.8mm bianche (100pz),225,4.08,918.0
+93,ORD-0019,ART-007,Barra filettata M12 L=1m zincata,374,4.97,1858.78
+94,ORD-0019,ART-010,Cavo elettrico H07V-K 2.5mm² blu (100m),500,0.83,415.0
+95,ORD-0020,ART-021,"Raccordo a pressare 20x1/2"" maschio",132,5.53,729.96
+96,ORD-0020,ART-003,Vite a brugola M6x30,332,0.29,96.28
+97,ORD-0020,ART-001,Bullone esagonale M8x40 zincato,337,0.43,144.91
+98,ORD-0020,ART-025,"Guarnizione piatta 1"" in fibra",88,3.97,349.36
+99,ORD-0020,ART-010,Cavo elettrico H07V-K 2.5mm² blu (100m),100,0.85,85.0
+100,ORD-0020,ART-020,Tubo multistrato 20x2 (barra 5m),28,19.06,533.68
+101,ORD-0021,ART-023,Pompa di circolazione 25-60,3,237.9,713.7
+102,ORD-0021,ART-027,"Filtro a Y 3/4"" ottone",20,22.88,457.6
+103,ORD-0021,ART-003,Vite a brugola M6x30,231,0.29,66.99
+104,ORD-0022,ART-017,Connettore circolare M12 4 pin,62,9.49,588.38
+105,ORD-0022,ART-012,Presa industriale CEE 32A 3P+T,26,25.6,665.6
+106,ORD-0022,ART-013,Morsettiera 12 poli 16mm²,260,3.3,858.0
+107,ORD-0022,ART-032,Disco da taglio inox 125x1.0mm,492,2.15,1057.8
+108,ORD-0023,ART-030,"Set chiavi a bussola 1/2"" 10-32mm (21pz)",19,86.33,1640.27
+109,ORD-0023,ART-003,Vite a brugola M6x30,285,0.28,79.8
+110,ORD-0023,ART-036,Set punte HSS rettificate 1-13mm (25pz),19,33.54,637.26
+111,ORD-0024,ART-005,Tassello Fischer SX10,397,8.91,3537.27
+112,ORD-0024,ART-021,"Raccordo a pressare 20x1/2"" maschio",324,5.31,1720.44
+113,ORD-0024,ART-026,"Collettore distribuzione 1"" 4 uscite",6,65.38,392.28
+114,ORD-0024,ART-040,Olio lubrificante universale 5L,20,27.58,551.6
+115,ORD-0024,ART-031,Trapano a colonna da banco 500W,3,367.22,1101.66
+116,ORD-0025,ART-033,Pinza amperometrica digitale 600A,5,121.13,605.65
+117,ORD-0025,ART-046,Silicone sigillante trasparente 310ml,72,5.72,411.84
+118,ORD-0025,ART-040,Olio lubrificante universale 5L,5,28.56,142.8
+119,ORD-0025,ART-008,Graffetta per tubi D=25mm,462,1.66,766.92
+120,ORD-0025,ART-030,"Set chiavi a bussola 1/2"" 10-32mm (21pz)",47,86.3,4056.1
+121,ORD-0026,ART-047,Fascette cablaggio 200x4.8mm bianche (100pz),208,4.27,888.16
+122,ORD-0026,ART-024,Manometro radiale 0-10 bar D=63mm,25,12.38,309.5
+123,ORD-0026,ART-008,Graffetta per tubi D=25mm,201,1.66,333.66
+124,ORD-0026,ART-023,Pompa di circolazione 25-60,2,243.05,486.1
+125,ORD-0026,ART-040,Olio lubrificante universale 5L,50,29.01,1450.5
+126,ORD-0027,ART-031,Trapano a colonna da banco 500W,2,382.3,764.6
+127,ORD-0027,ART-043,Nastro isolante PVC 19mm nero (25m),346,2.43,840.78
+128,ORD-0027,ART-001,Bullone esagonale M8x40 zincato,214,0.45,96.3
+129,ORD-0027,ART-023,Pompa di circolazione 25-60,4,249.3,997.2
+130,ORD-0027,ART-022,"Valvola a sfera 1"" ottone",37,14.76,546.12
+131,ORD-0028,ART-040,Olio lubrificante universale 5L,20,27.72,554.4
+132,ORD-0028,ART-047,Fascette cablaggio 200x4.8mm bianche (100pz),151,4.05,611.55
+133,ORD-0028,ART-025,"Guarnizione piatta 1"" in fibra",73,3.7,270.1
+134,ORD-0028,ART-006,Rivetto a strappo 4.8x12 alluminio,35,13.04,456.4
+135,ORD-0028,ART-017,Connettore circolare M12 4 pin,443,9.38,4155.34
+136,ORD-0029,ART-014,Guaina spiralata D=16mm nera (25m),11,15.83,174.13
+137,ORD-0029,ART-030,"Set chiavi a bussola 1/2"" 10-32mm (21pz)",19,86.12,1636.28
+138,ORD-0029,ART-037,Morsa da banco parallela 150mm,49,98.18,4810.82
+139,ORD-0029,ART-031,Trapano a colonna da banco 500W,1,387.21,387.21
+140,ORD-0029,ART-017,Connettore circolare M12 4 pin,484,9.43,4564.12
+141,ORD-0029,ART-011,Interruttore magnetotermico 16A 1P,13,19.06,247.78
+142,ORD-0029,ART-001,Bullone esagonale M8x40 zincato,391,0.45,175.95
+143,ORD-0030,ART-047,Fascette cablaggio 200x4.8mm bianche (100pz),430,4.35,1870.5
+144,ORD-0030,ART-040,Olio lubrificante universale 5L,50,27.81,1390.5
+145,ORD-0030,ART-033,Pinza amperometrica digitale 600A,2,129.25,258.5
+146,ORD-0030,ART-043,Nastro isolante PVC 19mm nero (25m),191,2.46,469.86
+147,ORD-0030,ART-034,"Chiave dinamometrica 1/2"" 20-200Nm",5,155.76,778.8
+148,ORD-0030,ART-012,Presa industriale CEE 32A 3P+T,20,24.34,486.8
+149,ORD-0031,ART-021,"Raccordo a pressare 20x1/2"" maschio",91,5.2,473.2
+150,ORD-0031,ART-025,"Guarnizione piatta 1"" in fibra",168,3.76,631.68
+151,ORD-0031,ART-024,Manometro radiale 0-10 bar D=63mm,14,12.76,178.64
+152,ORD-0031,ART-042,Spray sgrassante industriale 500ml,82,7.83,642.06
+153,ORD-0032,ART-004,Rondella piana M10 zincata,294,0.11,32.34
+154,ORD-0032,ART-015,Sensore di prossimità induttivo M18 PNP,27,41.15,1111.05
+155,ORD-0032,ART-032,Disco da taglio inox 125x1.0mm,249,2.17,540.33
+156,ORD-0032,ART-030,"Set chiavi a bussola 1/2"" 10-32mm (21pz)",31,89.34,2769.54
+157,ORD-0032,ART-002,Dado autobloccante M8 inox,426,0.32,136.32
+158,ORD-0032,ART-044,Guanti da lavoro nitrile tg. L (100pz),43,15.08,648.44
+159,ORD-0033,ART-037,Morsa da banco parallela 150mm,34,102.11,3471.74
+160,ORD-0033,ART-002,Dado autobloccante M8 inox,368,0.32,117.76
+161,ORD-0033,ART-030,"Set chiavi a bussola 1/2"" 10-32mm (21pz)",30,89.82,2694.6
+162,ORD-0033,ART-025,"Guarnizione piatta 1"" in fibra",389,3.62,1408.18
+163,ORD-0033,ART-031,Trapano a colonna da banco 500W,4,370.97,1483.88
+164,ORD-0033,ART-012,Presa industriale CEE 32A 3P+T,34,24.11,819.74
+165,ORD-0034,ART-035,Saldatrice inverter MMA 200A,3,430.58,1291.74
+166,ORD-0034,ART-024,Manometro radiale 0-10 bar D=63mm,31,12.19,377.89
+167,ORD-0034,ART-025,"Guarnizione piatta 1"" in fibra",91,3.79,344.89
+168,ORD-0034,ART-030,"Set chiavi a bussola 1/2"" 10-32mm (21pz)",39,85.01,3315.39
+169,ORD-0035,ART-003,Vite a brugola M6x30,152,0.29,44.08
+170,ORD-0035,ART-002,Dado autobloccante M8 inox,368,0.31,114.08
+171,ORD-0035,ART-017,Connettore circolare M12 4 pin,114,9.77,1113.78
+172,ORD-0036,ART-020,Tubo multistrato 20x2 (barra 5m),11,19.05,209.55
+173,ORD-0036,ART-027,"Filtro a Y 3/4"" ottone",24,22.67,544.08
+174,ORD-0036,ART-012,Presa industriale CEE 32A 3P+T,29,24.64,714.56
+175,ORD-0036,ART-008,Graffetta per tubi D=25mm,416,1.6,665.6
+176,ORD-0036,ART-045,Panno pulizia industriale rotolo (500 strappi),42,22.42,941.64
+177,ORD-0036,ART-023,Pompa di circolazione 25-60,2,235.25,470.5
+178,ORD-0037,ART-008,Graffetta per tubi D=25mm,85,1.65,140.25
+179,ORD-0037,ART-044,Guanti da lavoro nitrile tg. L (100pz),26,13.79,358.54
+180,ORD-0037,ART-003,Vite a brugola M6x30,265,0.29,76.85
+181,ORD-0037,ART-026,"Collettore distribuzione 1"" 4 uscite",11,67.55,743.05
+182,ORD-0037,ART-042,Spray sgrassante industriale 500ml,235,8.01,1882.35
+183,ORD-0037,ART-033,Pinza amperometrica digitale 600A,4,127.59,510.36
+184,ORD-0037,ART-027,"Filtro a Y 3/4"" ottone",32,21.77,696.64
+185,ORD-0038,ART-047,Fascette cablaggio 200x4.8mm bianche (100pz),472,4.3,2029.6
+186,ORD-0038,ART-042,Spray sgrassante industriale 500ml,187,7.76,1451.12
+187,ORD-0038,ART-036,Set punte HSS rettificate 1-13mm (25pz),20,35.64,712.8
+188,ORD-0038,ART-035,Saldatrice inverter MMA 200A,1,410.71,410.71
+189,ORD-0038,ART-033,Pinza amperometrica digitale 600A,4,121.8,487.2
+190,ORD-0039,ART-025,"Guarnizione piatta 1"" in fibra",158,3.74,590.92
+191,ORD-0039,ART-002,Dado autobloccante M8 inox,182,0.31,56.42
+192,ORD-0039,ART-037,Morsa da banco parallela 150mm,43,99.97,4298.71
+193,ORD-0039,ART-024,Manometro radiale 0-10 bar D=63mm,22,12.57,276.54
+194,ORD-0039,ART-013,Morsettiera 12 poli 16mm²,314,3.34,1048.76
+195,ORD-0039,ART-045,Panno pulizia industriale rotolo (500 strappi),10,21.43,214.3
+196,ORD-0040,ART-036,Set punte HSS rettificate 1-13mm (25pz),10,33.79,337.9
+197,ORD-0040,ART-037,Morsa da banco parallela 150mm,30,99.88,2996.4
+198,ORD-0040,ART-034,"Chiave dinamometrica 1/2"" 20-200Nm",3,158.56,475.68
+199,ORD-0040,ART-002,Dado autobloccante M8 inox,238,0.32,76.16
+200,ORD-0041,ART-025,"Guarnizione piatta 1"" in fibra",111,3.88,430.68
+201,ORD-0041,ART-026,"Collettore distribuzione 1"" 4 uscite",25,65.41,1635.25
+202,ORD-0041,ART-035,Saldatrice inverter MMA 200A,5,438.94,2194.7
+203,ORD-0041,ART-021,"Raccordo a pressare 20x1/2"" maschio",403,5.23,2107.69
+204,ORD-0041,ART-023,Pompa di circolazione 25-60,2,250.85,501.7
+205,ORD-0041,ART-020,Tubo multistrato 20x2 (barra 5m),22,19.32,425.04
+206,ORD-0041,ART-016,Relè industriale 24VDC 4 contatti,38,28.78,1093.64
+207,ORD-0042,ART-016,Relè industriale 24VDC 4 contatti,50,28.6,1430.0
+208,ORD-0042,ART-027,"Filtro a Y 3/4"" ottone",22,21.48,472.56
+209,ORD-0042,ART-013,Morsettiera 12 poli 16mm²,77,3.22,247.94
+210,ORD-0042,ART-023,Pompa di circolazione 25-60,2,248.38,496.76
+211,ORD-0042,ART-001,Bullone esagonale M8x40 zincato,435,0.45,195.75
+212,ORD-0043,ART-036,Set punte HSS rettificate 1-13mm (25pz),35,33.17,1160.95
+213,ORD-0043,ART-034,"Chiave dinamometrica 1/2"" 20-200Nm",1,154.45,154.45
+214,ORD-0043,ART-025,"Guarnizione piatta 1"" in fibra",87,3.83,333.21
+215,ORD-0043,ART-013,Morsettiera 12 poli 16mm²,401,3.06,1227.06
+216,ORD-0043,ART-004,Rondella piana M10 zincata,126,0.12,15.12
+217,ORD-0043,ART-020,Tubo multistrato 20x2 (barra 5m),24,18.12,434.88
+218,ORD-0044,ART-046,Silicone sigillante trasparente 310ml,276,5.49,1515.24
+219,ORD-0044,ART-047,Fascette cablaggio 200x4.8mm bianche (100pz),351,4.41,1547.91
+220,ORD-0044,ART-016,Relè industriale 24VDC 4 contatti,24,28.7,688.8
+221,ORD-0044,ART-041,Grasso al litio multiuso 400g,80,6.87,549.6
+222,ORD-0044,ART-030,"Set chiavi a bussola 1/2"" 10-32mm (21pz)",11,92.98,1022.78
+223,ORD-0044,ART-034,"Chiave dinamometrica 1/2"" 20-200Nm",2,157.96,315.92
+224,ORD-0045,ART-017,Connettore circolare M12 4 pin,130,9.31,1210.3
+225,ORD-0045,ART-013,Morsettiera 12 poli 16mm²,280,3.26,912.8
+226,ORD-0045,ART-043,Nastro isolante PVC 19mm nero (25m),290,2.35,681.5
+227,ORD-0045,ART-005,Tassello Fischer SX10,168,8.32,1397.76
+228,ORD-0046,ART-016,Relè industriale 24VDC 4 contatti,47,29.37,1380.39
+229,ORD-0046,ART-020,Tubo multistrato 20x2 (barra 5m),17,18.76,318.92
+230,ORD-0046,ART-045,Panno pulizia industriale rotolo (500 strappi),39,21.39,834.21
+231,ORD-0047,ART-005,Tassello Fischer SX10,354,8.71,3083.34
+232,ORD-0047,ART-004,Rondella piana M10 zincata,341,0.13,44.33
+233,ORD-0047,ART-012,Presa industriale CEE 32A 3P+T,33,23.96,790.68
+234,ORD-0047,ART-023,Pompa di circolazione 25-60,3,249.89,749.67
+235,ORD-0048,ART-034,"Chiave dinamometrica 1/2"" 20-200Nm",1,149.62,149.62
+236,ORD-0048,ART-006,Rivetto a strappo 4.8x12 alluminio,48,13.33,639.84
+237,ORD-0048,ART-003,Vite a brugola M6x30,344,0.28,96.32
+238,ORD-0048,ART-033,Pinza amperometrica digitale 600A,1,131.24,131.24
+239,ORD-0048,ART-024,Manometro radiale 0-10 bar D=63mm,48,12.9,619.2
+240,ORD-0048,ART-020,Tubo multistrato 20x2 (barra 5m),41,18.03,739.23
+241,ORD-0049,ART-021,"Raccordo a pressare 20x1/2"" maschio",290,5.32,1542.8
+242,ORD-0049,ART-013,Morsettiera 12 poli 16mm²,220,3.14,690.8
+243,ORD-0049,ART-045,Panno pulizia industriale rotolo (500 strappi),11,22.79,250.69
+244,ORD-0049,ART-033,Pinza amperometrica digitale 600A,3,123.9,371.7
+245,ORD-0049,ART-037,Morsa da banco parallela 150mm,36,95.92,3453.12
+246,ORD-0049,ART-006,Rivetto a strappo 4.8x12 alluminio,30,13.3,399.0
+247,ORD-0050,ART-024,Manometro radiale 0-10 bar D=63mm,30,12.96,388.8
+248,ORD-0050,ART-020,Tubo multistrato 20x2 (barra 5m),5,19.2,96.0
+249,ORD-0050,ART-008,Graffetta per tubi D=25mm,327,1.64,536.28
+250,ORD-0051,ART-047,Fascette cablaggio 200x4.8mm bianche (100pz),186,4.22,784.92
+251,ORD-0051,ART-037,Morsa da banco parallela 150mm,23,97.39,2239.97
+252,ORD-0051,ART-034,"Chiave dinamometrica 1/2"" 20-200Nm",4,150.09,600.36
+253,ORD-0051,ART-004,Rondella piana M10 zincata,372,0.12,44.64
+254,ORD-0051,ART-015,Sensore di prossimità induttivo M18 PNP,20,42.88,857.6
+255,ORD-0052,ART-032,Disco da taglio inox 125x1.0mm,305,2.19,667.95
+256,ORD-0052,ART-006,Rivetto a strappo 4.8x12 alluminio,23,12.91,296.93
+257,ORD-0052,ART-016,Relè industriale 24VDC 4 contatti,22,28.26,621.72
+258,ORD-0052,ART-008,Graffetta per tubi D=25mm,297,1.73,513.81
+259,ORD-0052,ART-035,Saldatrice inverter MMA 200A,2,418.19,836.38
+260,ORD-0052,ART-044,Guanti da lavoro nitrile tg. L (100pz),14,14.33,200.62
+261,ORD-0052,ART-011,Interruttore magnetotermico 16A 1P,43,18.52,796.36
+262,ORD-0053,ART-032,Disco da taglio inox 125x1.0mm,194,2.15,417.1
+263,ORD-0053,ART-025,"Guarnizione piatta 1"" in fibra",478,3.83,1830.74
+264,ORD-0053,ART-040,Olio lubrificante universale 5L,50,29.54,1477.0
+265,ORD-0053,ART-021,"Raccordo a pressare 20x1/2"" maschio",278,5.42,1506.76
+266,ORD-0053,ART-001,Bullone esagonale M8x40 zincato,226,0.44,99.44
+267,ORD-0054,ART-014,Guaina spiralata D=16mm nera (25m),31,14.7,455.7
+268,ORD-0054,ART-017,Connettore circolare M12 4 pin,431,9.77,4210.87
+269,ORD-0054,ART-044,Guanti da lavoro nitrile tg. L (100pz),29,14.33,415.57
+270,ORD-0054,ART-030,"Set chiavi a bussola 1/2"" 10-32mm (21pz)",47,91.6,4305.2
+271,ORD-0054,ART-016,Relè industriale 24VDC 4 contatti,46,29.87,1374.02
+272,ORD-0055,ART-040,Olio lubrificante universale 5L,50,27.36,1368.0
+273,ORD-0055,ART-045,Panno pulizia industriale rotolo (500 strappi),34,20.93,711.62
+274,ORD-0055,ART-025,"Guarnizione piatta 1"" in fibra",123,3.77,463.71
+275,ORD-0055,ART-007,Barra filettata M12 L=1m zincata,385,5.03,1936.55
+276,ORD-0056,ART-047,Fascette cablaggio 200x4.8mm bianche (100pz),244,4.39,1071.16
+277,ORD-0056,ART-031,Trapano a colonna da banco 500W,4,399.34,1597.36
+278,ORD-0056,ART-006,Rivetto a strappo 4.8x12 alluminio,7,13.05,91.35
+279,ORD-0056,ART-025,"Guarnizione piatta 1"" in fibra",170,3.85,654.5
+280,ORD-0056,ART-042,Spray sgrassante industriale 500ml,197,8.29,1633.13
+281,ORD-0057,ART-034,"Chiave dinamometrica 1/2"" 20-200Nm",1,148.92,148.92
+282,ORD-0057,ART-012,Presa industriale CEE 32A 3P+T,8,24.39,195.12
+283,ORD-0057,ART-023,Pompa di circolazione 25-60,3,243.3,729.9
+284,ORD-0058,ART-013,Morsettiera 12 poli 16mm²,348,3.09,1075.32
+285,ORD-0058,ART-012,Presa industriale CEE 32A 3P+T,34,25.24,858.16
+286,ORD-0058,ART-047,Fascette cablaggio 200x4.8mm bianche (100pz),285,4.1,1168.5
+287,ORD-0058,ART-006,Rivetto a strappo 4.8x12 alluminio,5,13.41,67.05
+288,ORD-0058,ART-030,"Set chiavi a bussola 1/2"" 10-32mm (21pz)",34,92.57,3147.38
+289,ORD-0058,ART-017,Connettore circolare M12 4 pin,396,9.85,3900.6
+290,ORD-0058,ART-037,Morsa da banco parallela 150mm,9,97.43,876.87
+291,ORD-0059,ART-020,Tubo multistrato 20x2 (barra 5m),11,18.4,202.4
+292,ORD-0059,ART-035,Saldatrice inverter MMA 200A,5,414.08,2070.4
+293,ORD-0059,ART-023,Pompa di circolazione 25-60,3,257.07,771.21
+294,ORD-0059,ART-014,Guaina spiralata D=16mm nera (25m),23,14.66,337.18
+295,ORD-0059,ART-030,"Set chiavi a bussola 1/2"" 10-32mm (21pz)",47,88.07,4139.29
+296,ORD-0059,ART-036,Set punte HSS rettificate 1-13mm (25pz),5,34.73,173.65
+297,ORD-0060,ART-022,"Valvola a sfera 1"" ottone",48,15.18,728.64
+298,ORD-0060,ART-016,Relè industriale 24VDC 4 contatti,47,29.02,1363.94
+299,ORD-0060,ART-026,"Collettore distribuzione 1"" 4 uscite",13,68.87,895.31
+300,ORD-0060,ART-046,Silicone sigillante trasparente 310ml,371,5.68,2107.28
+301,ORD-0060,ART-014,Guaina spiralata D=16mm nera (25m),24,15.84,380.16
+302,ORD-0060,ART-020,Tubo multistrato 20x2 (barra 5m),7,19.05,133.35
+303,ORD-0061,ART-032,Disco da taglio inox 125x1.0mm,498,2.2,1095.6
+304,ORD-0061,ART-013,Morsettiera 12 poli 16mm²,321,3.2,1027.2
+305,ORD-0061,ART-014,Guaina spiralata D=16mm nera (25m),22,15.91,350.02
+306,ORD-0061,ART-010,Cavo elettrico H07V-K 2.5mm² blu (100m),200,0.89,178.0
+307,ORD-0061,ART-042,Spray sgrassante industriale 500ml,296,8.27,2447.92
+308,ORD-0062,ART-035,Saldatrice inverter MMA 200A,2,435.13,870.26
+309,ORD-0062,ART-005,Tassello Fischer SX10,420,8.65,3633.0
+310,ORD-0062,ART-011,Interruttore magnetotermico 16A 1P,30,19.36,580.8
+311,ORD-0063,ART-001,Bullone esagonale M8x40 zincato,394,0.46,181.24
+312,ORD-0063,ART-020,Tubo multistrato 20x2 (barra 5m),21,19.06,400.26
+313,ORD-0063,ART-042,Spray sgrassante industriale 500ml,471,8.01,3772.71
+314,ORD-0063,ART-008,Graffetta per tubi D=25mm,240,1.59,381.6
+315,ORD-0063,ART-035,Saldatrice inverter MMA 200A,2,418.8,837.6
+316,ORD-0063,ART-027,"Filtro a Y 3/4"" ottone",44,23.36,1027.84
+317,ORD-0064,ART-005,Tassello Fischer SX10,109,8.19,892.71
+318,ORD-0064,ART-035,Saldatrice inverter MMA 200A,1,411.78,411.78
+319,ORD-0064,ART-023,Pompa di circolazione 25-60,4,235.59,942.36
+320,ORD-0064,ART-032,Disco da taglio inox 125x1.0mm,170,2.18,370.6
+321,ORD-0065,ART-042,Spray sgrassante industriale 500ml,476,7.89,3755.64
+322,ORD-0065,ART-032,Disco da taglio inox 125x1.0mm,258,2.19,565.02
+323,ORD-0065,ART-045,Panno pulizia industriale rotolo (500 strappi),22,20.97,461.34
+324,ORD-0065,ART-011,Interruttore magnetotermico 16A 1P,28,17.98,503.44
+325,ORD-0065,ART-007,Barra filettata M12 L=1m zincata,277,5.02,1390.54
+326,ORD-0066,ART-042,Spray sgrassante industriale 500ml,147,8.27,1215.69
+327,ORD-0066,ART-026,"Collettore distribuzione 1"" 4 uscite",34,65.22,2217.48
+328,ORD-0066,ART-004,Rondella piana M10 zincata,158,0.12,18.96
+329,ORD-0066,ART-031,Trapano a colonna da banco 500W,5,403.14,2015.7
+330,ORD-0066,ART-021,"Raccordo a pressare 20x1/2"" maschio",75,5.55,416.25
+331,ORD-0067,ART-005,Tassello Fischer SX10,160,8.77,1403.2
+332,ORD-0067,ART-043,Nastro isolante PVC 19mm nero (25m),169,2.36,398.84
+333,ORD-0067,ART-015,Sensore di prossimità induttivo M18 PNP,14,43.21,604.94
+334,ORD-0067,ART-045,Panno pulizia industriale rotolo (500 strappi),43,20.91,899.13
+335,ORD-0068,ART-013,Morsettiera 12 poli 16mm²,233,3.29,766.57
+336,ORD-0068,ART-008,Graffetta per tubi D=25mm,171,1.66,283.86
+337,ORD-0068,ART-002,Dado autobloccante M8 inox,58,0.31,17.98
+338,ORD-0068,ART-010,Cavo elettrico H07V-K 2.5mm² blu (100m),50,0.82,41.0
+339,ORD-0068,ART-001,Bullone esagonale M8x40 zincato,265,0.45,119.25
+340,ORD-0069,ART-040,Olio lubrificante universale 5L,5,29.15,145.75
+341,ORD-0069,ART-045,Panno pulizia industriale rotolo (500 strappi),47,22.05,1036.35
+342,ORD-0069,ART-007,Barra filettata M12 L=1m zincata,284,4.87,1383.08
+343,ORD-0069,ART-034,"Chiave dinamometrica 1/2"" 20-200Nm",1,149.15,149.15
+344,ORD-0069,ART-016,Relè industriale 24VDC 4 contatti,35,29.49,1032.15
+345,ORD-0070,ART-034,"Chiave dinamometrica 1/2"" 20-200Nm",2,152.49,304.98
+346,ORD-0070,ART-005,Tassello Fischer SX10,374,8.57,3205.18
+347,ORD-0070,ART-006,Rivetto a strappo 4.8x12 alluminio,50,12.67,633.5
+348,ORD-0070,ART-024,Manometro radiale 0-10 bar D=63mm,43,12.54,539.22
+349,ORD-0070,ART-011,Interruttore magnetotermico 16A 1P,34,18.51,629.34
+350,ORD-0070,ART-046,Silicone sigillante trasparente 310ml,270,5.38,1452.6
+351,ORD-0071,ART-015,Sensore di prossimità induttivo M18 PNP,30,41.65,1249.5
+352,ORD-0071,ART-033,Pinza amperometrica digitale 600A,1,122.66,122.66
+353,ORD-0071,ART-034,"Chiave dinamometrica 1/2"" 20-200Nm",3,158.58,475.74
+354,ORD-0071,ART-016,Relè industriale 24VDC 4 contatti,28,29.79,834.12
+355,ORD-0071,ART-032,Disco da taglio inox 125x1.0mm,401,2.19,878.19
+356,ORD-0071,ART-025,"Guarnizione piatta 1"" in fibra",84,3.64,305.76
+357,ORD-0071,ART-035,Saldatrice inverter MMA 200A,1,402.92,402.92
+358,ORD-0072,ART-043,Nastro isolante PVC 19mm nero (25m),393,2.31,907.83
+359,ORD-0072,ART-004,Rondella piana M10 zincata,231,0.12,27.72
+360,ORD-0072,ART-045,Panno pulizia industriale rotolo (500 strappi),32,22.81,729.92
+361,ORD-0072,ART-025,"Guarnizione piatta 1"" in fibra",419,3.63,1520.97
+362,ORD-0073,ART-007,Barra filettata M12 L=1m zincata,386,4.79,1848.94
+363,ORD-0073,ART-044,Guanti da lavoro nitrile tg. L (100pz),11,14.28,157.08
+364,ORD-0073,ART-040,Olio lubrificante universale 5L,20,27.4,548.0
+365,ORD-0073,ART-015,Sensore di prossimità induttivo M18 PNP,22,42.31,930.82
+366,ORD-0073,ART-011,Interruttore magnetotermico 16A 1P,32,19.14,612.48
+367,ORD-0074,ART-002,Dado autobloccante M8 inox,223,0.32,71.36
+368,ORD-0074,ART-046,Silicone sigillante trasparente 310ml,142,5.81,825.02
+369,ORD-0074,ART-021,"Raccordo a pressare 20x1/2"" maschio",339,5.48,1857.72
+370,ORD-0074,ART-047,Fascette cablaggio 200x4.8mm bianche (100pz),85,4.05,344.25
+371,ORD-0074,ART-013,Morsettiera 12 poli 16mm²,374,3.35,1252.9
+372,ORD-0074,ART-045,Panno pulizia industriale rotolo (500 strappi),10,22.54,225.4
+373,ORD-0074,ART-023,Pompa di circolazione 25-60,2,241.97,483.94
+374,ORD-0075,ART-023,Pompa di circolazione 25-60,1,236.56,236.56
+375,ORD-0075,ART-024,Manometro radiale 0-10 bar D=63mm,44,11.94,525.36
+376,ORD-0075,ART-044,Guanti da lavoro nitrile tg. L (100pz),10,14.17,141.7
+377,ORD-0075,ART-046,Silicone sigillante trasparente 310ml,388,5.56,2157.28
+378,ORD-0075,ART-006,Rivetto a strappo 4.8x12 alluminio,43,12.83,551.69
+379,ORD-0076,ART-026,"Collettore distribuzione 1"" 4 uscite",23,69.21,1591.83
+380,ORD-0076,ART-033,Pinza amperometrica digitale 600A,5,124.83,624.15
+381,ORD-0076,ART-008,Graffetta per tubi D=25mm,391,1.62,633.42
+382,ORD-0077,ART-001,Bullone esagonale M8x40 zincato,158,0.46,72.68
+383,ORD-0077,ART-015,Sensore di prossimità induttivo M18 PNP,21,41.12,863.52
+384,ORD-0077,ART-023,Pompa di circolazione 25-60,1,232.94,232.94
+385,ORD-0078,ART-042,Spray sgrassante industriale 500ml,253,8.19,2072.07
+386,ORD-0078,ART-016,Relè industriale 24VDC 4 contatti,7,28.32,198.24
+387,ORD-0078,ART-040,Olio lubrificante universale 5L,50,29.7,1485.0
+388,ORD-0078,ART-043,Nastro isolante PVC 19mm nero (25m),491,2.36,1158.76
+389,ORD-0078,ART-026,"Collettore distribuzione 1"" 4 uscite",32,68.5,2192.0
+390,ORD-0078,ART-005,Tassello Fischer SX10,413,8.62,3560.06
+391,ORD-0079,ART-024,Manometro radiale 0-10 bar D=63mm,34,12.92,439.28
+392,ORD-0079,ART-012,Presa industriale CEE 32A 3P+T,28,23.87,668.36
+393,ORD-0079,ART-047,Fascette cablaggio 200x4.8mm bianche (100pz),482,4.03,1942.46
+394,ORD-0080,ART-006,Rivetto a strappo 4.8x12 alluminio,9,12.91,116.19
+395,ORD-0080,ART-031,Trapano a colonna da banco 500W,1,386.18,386.18
+396,ORD-0080,ART-023,Pompa di circolazione 25-60,2,254.95,509.9
+397,ORD-0080,ART-025,"Guarnizione piatta 1"" in fibra",228,3.74,852.72
+398,ORD-0080,ART-016,Relè industriale 24VDC 4 contatti,46,29.4,1352.4
+399,ORD-0080,ART-044,Guanti da lavoro nitrile tg. L (100pz),20,13.92,278.4
+400,ORD-0080,ART-012,Presa industriale CEE 32A 3P+T,21,24.15,507.15

@@ -1,0 +1,595 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Acme Manufacturing - Catalogo, Anagrafiche e Conferme Ordine",
+    "version": "v1"
+  },
+  "servers": [
+    {
+      "url": "http://ja.4labs.it:8080",
+      "description": "Generated server url"
+    }
+  ],
+  "paths": {
+    "/api/clienti/{id}": {
+      "get": {
+        "tags": [
+          "cliente-controller"
+        ],
+        "operationId": "getClienteById",
+        "summary": "Recupera un cliente specifico tramite il suo id (es. CLI-003)",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/Cliente"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/clienti": {
+      "get": {
+        "tags": [
+          "cliente-controller"
+        ],
+        "operationId": "getClienti",
+        "summary": "Recupera la lista completa dei clienti in anagrafica",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Cliente"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/articoli/{codice}": {
+      "get": {
+        "tags": [
+          "articolo-controller"
+        ],
+        "operationId": "getArticoloByCodice",
+        "summary": "Recupera un articolo specifico tramite il suo codice (es. ART-015)",
+        "parameters": [
+          {
+            "name": "codice",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/Articolo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/articoli": {
+      "get": {
+        "tags": [
+          "articolo-controller"
+        ],
+        "operationId": "getArticoli",
+        "summary": "Recupera il catalogo completo degli articoli",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Articolo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ordini/{id}": {
+      "get": {
+        "tags": [
+          "ordine-controller"
+        ],
+        "operationId": "getOrdineById",
+        "summary": "Recupera un ordine storico specifico tramite il suo id (es. ORD-0001)",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/Ordine"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ordini": {
+      "get": {
+        "tags": [
+          "ordine-controller"
+        ],
+        "operationId": "getOrdini",
+        "summary": "Recupera la lista completa degli ordini storici",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Ordine"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/dettagli-ordine/{id}": {
+      "get": {
+        "tags": [
+          "dettaglio-ordine-controller"
+        ],
+        "operationId": "getDettaglioOrdineById",
+        "summary": "Recupera una riga di dettaglio ordine storico specifica tramite id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/DettaglioOrdine"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/dettagli-ordine": {
+      "get": {
+        "tags": [
+          "dettaglio-ordine-controller"
+        ],
+        "operationId": "getDettagliOrdine",
+        "summary": "Recupera tutte le righe di dettaglio degli ordini storici",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DettaglioOrdine"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/conferme-ordine/{id}": {
+      "get": {
+        "tags": [
+          "conferma-ordine-controller"
+        ],
+        "operationId": "getConfermaOrdineById",
+        "summary": "Recupera una conferma ordine specifica tramite id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConfermaOrdine"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/conferme-ordine": {
+      "get": {
+        "tags": [
+          "conferma-ordine-controller"
+        ],
+        "operationId": "getConfermeOrdine",
+        "summary": "Recupera la lista completa delle conferme ordine create",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ConfermaOrdine"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "conferma-ordine-controller"
+        ],
+        "operationId": "createConfermaOrdine",
+        "summary": "Crea una nuova testata di conferma ordine (id, cliente, data, riferimento cliente) dopo che i dati estratti dal PDF sono stati validati",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConfermaOrdine"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConfermaOrdine"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/dettagli-conferma-ordine/{id}": {
+      "get": {
+        "tags": [
+          "dettaglio-conferma-ordine-controller"
+        ],
+        "operationId": "getDettaglioConfermaOrdineById",
+        "summary": "Recupera una riga di dettaglio di una conferma ordine tramite id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/DettaglioConfermaOrdine"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/dettagli-conferma-ordine": {
+      "get": {
+        "tags": [
+          "dettaglio-conferma-ordine-controller"
+        ],
+        "operationId": "getDettagliConfermaOrdine",
+        "summary": "Recupera tutte le righe di dettaglio delle conferme ordine create",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DettaglioConfermaOrdine"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "dettaglio-conferma-ordine-controller"
+        ],
+        "operationId": "createDettaglioConfermaOrdine",
+        "summary": "Crea una riga di dettaglio (articolo, quantita, prezzo, importo) collegata a una conferma ordine esistente",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DettaglioConfermaOrdine"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/DettaglioConfermaOrdine"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Cliente": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ragioneSociale": {
+            "type": "string",
+            "minLength": 1
+          },
+          "partitaIva": {
+            "type": "string",
+            "minLength": 1
+          },
+          "indirizzo": {
+            "type": "string"
+          },
+          "cap": {
+            "type": "string"
+          },
+          "citta": {
+            "type": "string"
+          },
+          "provincia": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
+          },
+          "telefono": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "partitaIva",
+          "ragioneSociale"
+        ]
+      },
+      "Ordine": {
+        "type": "object",
+        "properties": {
+          "idOrdine": {
+            "type": "string",
+            "minLength": 1
+          },
+          "cliente": {
+            "$ref": "#/components/schemas/Cliente"
+          },
+          "dataOrdine": {
+            "type": "string",
+            "format": "date"
+          },
+          "riferimentoCliente": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "cliente",
+          "dataOrdine",
+          "idOrdine"
+        ]
+      },
+      "Articolo": {
+        "type": "object",
+        "properties": {
+          "codice": {
+            "type": "string",
+            "minLength": 1
+          },
+          "descrizione": {
+            "type": "string",
+            "minLength": 1
+          },
+          "categoria": {
+            "type": "string"
+          },
+          "unitaMisura": {
+            "type": "string"
+          },
+          "prezzoListino": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "codice",
+          "descrizione",
+          "prezzoListino"
+        ]
+      },
+      "DettaglioOrdine": {
+        "type": "object",
+        "properties": {
+          "idRiga": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "ordine": {
+            "$ref": "#/components/schemas/Ordine"
+          },
+          "articolo": {
+            "$ref": "#/components/schemas/Articolo"
+          },
+          "descrizioneArticolo": {
+            "type": "string"
+          },
+          "quantita": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "prezzoUnitario": {
+            "type": "number"
+          },
+          "importoRiga": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "articolo",
+          "importoRiga",
+          "ordine",
+          "prezzoUnitario",
+          "quantita"
+        ]
+      },
+      "ConfermaOrdine": {
+        "type": "object",
+        "properties": {
+          "idConferma": {
+            "type": "string",
+            "minLength": 1
+          },
+          "cliente": {
+            "$ref": "#/components/schemas/Cliente"
+          },
+          "dataConferma": {
+            "type": "string",
+            "format": "date"
+          },
+          "riferimentoCliente": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "cliente",
+          "dataConferma",
+          "idConferma"
+        ]
+      },
+      "DettaglioConfermaOrdine": {
+        "type": "object",
+        "properties": {
+          "idRiga": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "confermaOrdine": {
+            "$ref": "#/components/schemas/ConfermaOrdine"
+          },
+          "articolo": {
+            "$ref": "#/components/schemas/Articolo"
+          },
+          "descrizioneArticolo": {
+            "type": "string"
+          },
+          "quantita": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "prezzoUnitario": {
+            "type": "number"
+          },
+          "importoRiga": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "articolo",
+          "confermaOrdine",
+          "importoRiga",
+          "prezzoUnitario",
+          "quantita"
+        ]
+      }
+    }
+  }
+}
