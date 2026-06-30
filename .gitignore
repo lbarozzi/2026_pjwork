@@ -31,3 +31,7 @@ Thumbs.db
 
 # Project local runtime state
 src/data/agents_state.json
+
+src/incoming
+src/outcoming
+*.bak

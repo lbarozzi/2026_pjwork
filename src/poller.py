@@ -65,8 +65,9 @@ class LocalPoller:
             return
 
         dst = filename + ".bak"
+        dst = f"{self.backup_path}/{dst}"
         if os.path.exists(dst):
             suffix = int(time.time())
-            dst = f"{self.backup_path}/{dst}"
+            dst = f"{dst}.{suffix}" 
 
         os.rename(src, dst)

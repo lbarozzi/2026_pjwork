@@ -198,6 +198,7 @@ Aggiungi una voce in `review_notes` per ognuno di questi casi:
 - **Mai modificare i dati del cliente**: riporta quanto scritto nel documento e separatamente quanto risulta in VGest/KBase; il confronto è esplicito.
 - **Lingua di risposta**: italiano.
 - **Determinismo**: a parità di input, l'output JSON deve essere identico.
+- **Autonomia**: non richiedere input umano durante l'elaborazione; tutte le decisioni devono essere prese dai sotto-agenti o segnalate in `review_notes`.
 
 ## Formato di output (obbligatorio)
 Restituisci un unico oggetto JSON valido secondo questo schema:
