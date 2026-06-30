@@ -12,7 +12,7 @@ from azure.ai.agents.models import (
     OpenApiAnonymousAuthDetails,
 )
 
-class AgentMaker:
+class AgentsMaker:
     def __init__(self, model_name=None):
         self.model_name = model_name or os.environ.get("AZ_MODEL_NAME", "gpt-4.1-mini")
         self.base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -27,6 +27,19 @@ class AgentMaker:
             if os.path.exists(path):
                 return path
         raise FileNotFoundError(f"Nessun file trovato tra: {', '.join(candidate_names)}")
+
+    def _load_data_text(self, *candidate_names):
+        path = self._resolve_data_file(*candidate_names)
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read(), os.path.basename(path)
+
+    def _build_kbase_instructions(self, csv_text, source_name):
+        return (
+            "Sei un agente che risponde esclusivamente basandosi sui contenuti del file locale "
+            f"{source_name}. Non inventare dati e non usare conoscenza esterna.\n\n"
+            f"Contenuto disponibile:\n{csv_text}\n\n"
+            "Se l'informazione non è presente nel file, dichiaralo esplicitamente."
+        )
 
     def _build_clients(self):
         credential = DefaultAzureCredential()
@@ -58,30 +71,18 @@ class AgentMaker:
         # Sotto-Agente 1: chiama una API REST tramite OpenApiTool
         # Usiamo come servizio un'API REST java aziendale
         # Spec OpenAPI 3.0 minimale scritta a mano per i due endpoint usati dalla demo
-        json_spec = ""
+        json_spec = {}
         with open(os.path.join(self.base_dir, "data", "openapi.json"), "r", encoding="utf-8") as f:
-            json_spec = f.read()
+            json_spec = json.load(f)
 
-        articoli_csv_path = self._resolve_data_file("articoli.csv")
-        clients_csv_path = self._resolve_data_file("clients.csv", "clienti.csv")
+        articoli_csv_text, articoli_source_name = self._load_data_text("articoli.csv")
+        clients_csv_text, clients_source_name = self._load_data_text("clients.csv", "clienti.csv")
 
         created = {
             "model": self.model_name,
             "files": {},
             "agents": {}
         }
-
-        articoli_file = agents_client.files.upload_and_poll(
-            file_path=articoli_csv_path,
-            purpose="assistants"
-        )
-        created["files"]["articoli_csv"] = articoli_file.id
-
-        clients_file = agents_client.files.upload_and_poll(
-            file_path=clients_csv_path,
-            purpose="assistants"
-        )
-        created["files"]["clients_csv"] = clients_file.id
 
         openapi_tool = OpenApiTool(
             name="Json_vgest_openApi",
@@ -103,32 +104,17 @@ class AgentMaker:
         created["agents"]["api"] = api_agent.id
 
         # Sotto-Agente 2: usa la knowledge base locale caricata da data/articoli.csv
-        kbase_file_search_tool = FileSearchTool(file_ids=[articoli_file.id])
-
         kbase_agent = agents_client.create_agent(
             model=self.model_name,
             name="Articoli-KBase-Agent",
-            instructions=(
-                "Sei un agente che risponde esclusivamente basandosi sui contenuti della "
-                "knowledge base locale caricata dal file data/articoli.csv tramite file search. "
-                "Se l'informazione non è presente nel CSV, dichiaralo esplicitamente."
-            ),
-            tools=kbase_file_search_tool.definitions,
-            tool_resources=kbase_file_search_tool.resources,
+            instructions=self._build_kbase_instructions(articoli_csv_text, articoli_source_name),
         )
         created["agents"]["articoli_kbase"] = kbase_agent.id
 
-        client_tool = FileSearchTool(file_ids=[clients_file.id])
         client_agent = agents_client.create_agent(
             model=self.model_name,
             name="Clients-KBase-Agent",
-            instructions=(
-                "Sei un agente che risponde esclusivamente basandosi sui contenuti della "
-                "knowledge base locale caricata dal file data/clienti.csv tramite file search. "
-                "Se l'informazione non è presente nel CSV, dichiaralo esplicitamente."
-            ),
-            tools=client_tool.definitions,
-            tool_resources=client_tool.resources,
+            instructions=self._build_kbase_instructions(clients_csv_text, clients_source_name),
         )
         created["agents"]["clients_kbase"] = client_agent.id
 

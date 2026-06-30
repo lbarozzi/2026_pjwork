@@ -3,13 +3,15 @@ import threading
 import time
 
 
-class local_poller:
-    def __init__(self, path, interval_seconds=10):
-        self.path = path
+class LocalPoller:
+    def __init__(self, process, path, interval_seconds=10):
+        self.path = path or os.environ.get("INCOMING_PATH", "incoming")
+        self.backup_path = os.environ.get("BACKUP_PATH", "backup")
         self.interval_seconds = interval_seconds
         self._stop_event = threading.Event()
         self._thread = None
         self._known_files = set()
+        self.process = process
 
     def start(self):
         if self._thread is not None and self._thread.is_alive():
@@ -29,12 +31,15 @@ class local_poller:
 
     def _run(self):
         while not self._stop_event.is_set():
+            print(".",end="", flush=True)
             current_files = self._list_regular_files()
-            new_files = current_files - self._known_files
+            new_files = current_files  # - self._known_files
 
             for filename in sorted(new_files):
                 if filename.endswith(".bak"):
                     continue
+                # Process the new file
+                self.process(os.path.join(self.path, filename))
                 self._rename_to_bak(filename)
 
             self._known_files = self._list_regular_files()
@@ -44,6 +49,7 @@ class local_poller:
         try:
             names = os.listdir(self.path)
         except FileNotFoundError:
+            #print("FileNOTFOUND")
             return set()
 
         files = set()
@@ -58,9 +64,9 @@ class local_poller:
         if not os.path.isfile(src):
             return
 
-        dst = src + ".bak"
+        dst = filename + ".bak"
         if os.path.exists(dst):
             suffix = int(time.time())
-            dst = f"{src}.{suffix}.bak"
+            dst = f"{self.backup_path}/{dst}"
 
         os.rename(src, dst)
